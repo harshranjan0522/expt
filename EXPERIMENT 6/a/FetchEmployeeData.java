@@ -52,7 +52,7 @@ public class FetchEmployeeData {
                 if (rs != null) rs.close();
                 if (stmt != null) stmt.close();
                 if (conn != null) conn.close();
-                System.out.println("\n✅ Connection closed successfully.");
+                System.out.println("\n Connection closed successfully.");
             } catch (SQLException e) {
                 System.out.println("❌ Error closing connection: " + e.getMessage());
             }
